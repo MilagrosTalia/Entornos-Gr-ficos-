@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- Tenemos un parrafo que contiene dos elementos, una imagen y un hiperenlaces INDEPENDIENTES;-->
+  <p><img src="im1.jpg" alt="imagen1" /><a href="http://www.google.com.ar">Click aquí</a></p>
+ 
+  <!-- Tenemos un parrafo que contiene un hiperenlace y texto;
+  El hiperenlace contiene una imagen;
+  Por lo tanto en la 'imagen' aparece el link que abre la página de google;
+  En la misma linea el texto Click aqui no tiene funcionalidad ya que aparece luego de que se cierra la etiqueta del hiperenlace -->
+  <p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" /></a> Click aquí</p>
+
+  <!-- Tenemos un parrafo que contiene un hiperenlace;
+    El hiperenlace contiene una imagen y el texto 'Click aqui' se encuentra dentro del hiperenlace por ende todo forma UN SOLO ENLACE -->
+  <p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="ima
+  gen1" />Click aquí</a></p>
+
+
+  <!-- Tenemos un parrafo que contiene DOS hiperenlace SEPARADOS -->
+  <p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" /></a> <a href="http://www.google.com.ar">Click
+      aquí</a></p>
+
+</body>
+</html>
