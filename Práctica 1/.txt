@@ -1,0 +1,57 @@
+Ejercitación 1 - Responder el siguiente cuestionario.
+
+Qué es HTML, cuando fue creado, cuales fueron las distintas versiones y cuál es la última ? 
+
+
+HTML es el lenguaje de marcado principal de la World Wide Web.. Un lenguaje de marcado hace referencia a aquellos lenguajes que emplean etiquetas. Estas etiquetas ya están predefinidas dentro del lenguaje respectivo y contienen la información que “ayudan” a leer el texto.
+
+El HTML fue desarrollado originalmente por Tim Berners-Lee y fue popularizado
+por el navegador Mosaic (1993).
+
+Versiones: 
+
+Con las palabras del texto:
+1990–1995 — HTML (primeras revisiones) "HTML pasó por una serie de revisiones y experimentó una serie de extensiones, alojadas principalmente en el CERN y luego en el IETF."
+1995 — HTML 3.0 "Un primer intento frustrado de extender el HTML."
+1997 — HTML 3.2 "Un enfoque más pragmático."
+1997 — HTML 4.01 
+2000 — XHTML 1.0 "Una reformulación de HTML 4.01 en XML, que no agregó nuevas funciones, excepto la nueva serialización."
+Sin fecha precisa — XHTML 2.0 "Un nuevo lenguaje que no era compatible con los lenguajes HTML y XHTML anteriores."
+2006–2007 — HTML 5.0 (retoma su desarrollo) "El W3C formó un grupo de trabajo autorizado para trabajar con WHATWG en el desarrollo de la especificación HTML."
+2012 — HTML 5.0 es el principal lenguaje de la web 
+
+
+2. ¿Cuáles son los principios básicos que el W3C recomienda seguir para la creación de documentos con HTML?
+
+Los principios básicos deberían funcionar bien en diferentes navegadores y plataformas, la Interoperabilidad sirve para intercambiar información y utilizar la información intercambiada. 
+
+3. En las Especificaciones de HTML, ¿cuándo un elemento o atributo se considera desaprobado? ¿y obsoleto?
+
+Un elemento o atributo desaprobado es aquel que ha quedado anticuado por la presencia de estructuras nuevas. Los elementos desaprobados se definen en el manual de referencia en los lugares apropiados, pero claramente marcados como desaprobados. Los elementos desaprobados pueden declararse obsoletos en versiones futuras de HTML. 
+
+Un elemento o atributo obsoleto es aquél para el cual no hay garantía de soporte por parte de un agente de usuario. (Los elementos obsoletos han dejado de estar definidos en la especificación, pero se enumeran por motivos históricos en la sección de cambios del manual de referencia). 
+
+
+4. Qué es el DTD y cuáles son los posibles DTDs contemplados en la especificación de HTML 4.01?
+
+La declaración del tipo de documento (DTD Document Type Declaration), esta sección se ubica en la primera línea del archivo HTML, es decir antes de la marca html.
+
+Según el rigor de HTML 4.01 utilizado podemos declararla como:
+
+Declaración transitoria:
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+Declaración estricta:
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+5. Qué son los metadatos y cómo se especifican en HTML?
+
+ Los metadatos son información sobre un documento, no sobre el contenido del propio documento. 
+En HTML se usan principalmente con el elemento META, que va dentro del HEAD del documento. La especificación implica dos pasos:
+1. Declarar una propiedad y su valor, de dos formas posibles:
+Desde dentro del documento, con el elemento META 
+Desde fuera del documento, vinculando los metadatos con el elemento LINK
+2. Referenciar un perfil, que es un diccionario donde se definen las propiedades y sus valores válidos. Se indica con el atributo profile en el elemento HEAD
+
