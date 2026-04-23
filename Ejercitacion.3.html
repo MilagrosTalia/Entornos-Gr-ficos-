@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <!--- Aparece el link en la página sin ningun estilo;
+   * Al hacer click abre google en la misma pestaña-->
+  <a href="http://www.google.com.ar">Click aquí para ir a Google</a>
+  
+  <br>
+  <!--- El link aparece en la página sin ningún estilo;
+   * Al hacer click abre google en una nueva pestaña, por el target="_blank"-->
+  <a href="http://www.google.com.ar" target="_blank">Click aquí para ir a Google</a>
+
+  <br>
+  <!-- No redirecciona a ninguna página porque el link esta mal escrito;
+   * Type indica el contenido;
+   * hreflan el idioma de la página de destino será español; -->
+  <a href="http://www. google.com.ar" type="text/html" hreflang="es" charset="utf-8" rel="help">
+  
+  <br>
+  <!-- El href= "#" Apunta al principio de la página, -->
+  <a href="#">Click aquí para ir a Google</a>
+  
+  <br>
+  
+  <!-- Me redirecciona al 'hiperlink' con el nombre 'arriba'-->
+  <a href="#arriba">Click aquí para volver arriba</a>
+  
+  <br>
+  <!--Define el link que hace referencia en el punto anterior anterior"-->
+  <a name="arriba" id="arriba"></a>
+</body>
+</html>
