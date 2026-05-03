@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <!-- Ambas tablas devuelven el mismo resultado visual.
+   La primera aplica <th> que se utiliza para los encabezados, entonces
+  por defecto el navegador le aplica automáticamente font-weight: bold y text-align: center
+   La segunda tabla usa el <td> para el encabezado por ende este no tiene el estilo de th,
+  entonces lo agrega de forma manual!--> 
+
+  <table border="1" width="300">
+    <tr>
+      <th>Columna 1</th>
+      <th>Columna 2</th>
+    </tr>
+    <tr>
+      <td>Celda 1</td>
+      <td>Celda 2</td>
+    </tr>
+    <tr>
+      <td>Celda 3</td>
+      <td>Celda 4</td>
+    </tr>
+  </table>
+
+  <br>
+
+<table border="1" width="300">
+  <tr>
+    <td>
+      <div align="center"><strong>Colum
+          na1</strong></div>
+    </td>
+    <td>
+      <div align="center"><strong>Columna
+          2</strong></div>
+    </td>
+  </tr>
+  <tr>
+    <td>Celda 1</td>
+    <td>Celda 2</td>
+  </tr>
+  <tr>
+    <td>Celda 3</td>
+    <td>Celda 4</td>
+  </tr>
+</table>
+</body>
+</html>

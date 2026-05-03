@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <!-- Form 1
+  Formulario 
+  method="post" los datos viajan en el cuerpo de la petición, no visibles en la URL. Correcto para login.
+  fieldset + legend agrupa visualmente los campos con un título bordeado.
+  type="password" : oculta el texto con asteriscos o puntos.
+  type="submit" : envía el formulario correctamente.
+  value="xxx" en usuario y clave: deja texto precargado en los campos, útil para pruebas pero no para producción. !-->
+
+
+  <form id="form1" name="form1" action="procesar.php" method="post" target="_blank">
+    <fieldset>
+      <legend>LOGIN</legend>
+      Usuario: <input type="text" id="usu1" name="usu1" value="xxx" /><br />
+      Clave: <input type="password" id="clave1" name="clave1" value="xxx" />
+    </fieldset>
+    <input type="submit" id="boton1" name="boton1" value="Enviar" />
+  </form>
+
+  <br>
+  <br>
+
+  <!-- Form 2
+    Formulario 
+    label: mejora la accesibilidad — al hacer click en el texto "Usuario:" el foco va al input correspondiente.
+    method="get": los datos aparecen en la URL (?usu2=...&clave2=...). Incorrecto para login porque la clave queda expuesta.
+    type="text" en el campo clave: la contraseña se ve en pantalla, debería ser type="password".
+    action="": envía al mismo archivo/página actual. Funciona, pero es ambiguo. !--> 
+
+  <form id="form2" name="form2" action="" method="get" target="_blank">
+    LOGIN<br />
+    <label>Usuario: <input type="text" id="usu2" name="usu2" /></label><br />
+    <label>Clave: <input type="text" id="clave2" name="clave2" /></label><br />
+    <input type="submit" id="boton2" name="boton2" value="Enviar" />
+  </form>
+
+  <br>
+  <br>
+
+  <!-- method=" p ost": tiene un espacio en el medio — el navegador no lo reconoce como método válido y suele caer a GET por defecto.
+    type="reset": el botón dice "Enviar" pero en realidad limpia los campos, no envía nada.
+    action="mailto:...": intenta enviar el formulario por email abriendo el correo del usuario. !--> 
+   
+    <form id="form3" name="form3" action="mailto:xx@xx.com” enctype=text/plain method=" p ost" target="_blank">
+    <fieldset>
+      <legend>LOGIN</legend>
+      Usuario: <input type="text" id="usu3" name="usu3" /><br />
+      Clave: <input type="password" id="clave3" name="clave3" />
+    </fieldset>
+    <input type="reset" id="boton3" name="boton3" value="Enviar" />
+  </form>
+  
+</body>
+</html>

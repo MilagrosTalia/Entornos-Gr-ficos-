@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+<!-- El resultado visualmente es el mismo, la diferencia radica en que la primera tabla utliza un caption para el titulo 
+ que posee por defecto el estilo text-align: center ; Mientras que en el segundo ejemplo utiliza un tr, para la fila 
+ anidado con un td para la 'celda' y le da el estilo para que quede centrado  -->
+ 
+  <table width="200">
+    <caption>
+      Título
+      </caption>
+      <tr>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+      </tr>
+      <tr>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">
+          &nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+      </tr>
+      </table>
+
+  <br><br>
+
+  <table width="200">
+    <tr>
+      <td colspan="3">
+      <div align="center">Título</div>
+    </td>
+    </tr>
+    <tr>
+      <td bgcolor="#dddddd">&nbsp;</td>
+      <td bgcolor="#dddddd">&nbsp;</td>
+      <td bgcolor="#dddddd">&nbsp;</td>
+    </tr>
+    <tr>
+      <td bgcolor="#dddddd">&nbsp;</td>
+      <td bgcolor="#dddddd">&nbsp;</td>
+      <td bgcolor="#dddddd">&nbsp;</td>
+    </tr>
+    </table>
+  
+</body>
+</html>
