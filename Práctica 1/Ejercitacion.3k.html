@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- La diferencia esta los atributos que contiene el select mientas qur uno tiene el atributo multiple el otro
+   no tiene nada-->
+  <select name="lista">
+    <optgroup label="Caso 1">
+      <option>Mayo</option>
+      <option>Junio</option>
+    </optgroup>
+    <optgroup label="Caso 2">
+      <option>Mayo</option>
+      <option>Junio</option>
+    </optgroup>
+  </select>
+
+  <br>
+
+  <select name="lista[]" multiple="multiple">
+    <optgroup label=" Caso 1">
+      <option>Mayo</option>
+      <option>Junio</option>
+    </optgroup>
+    <optgroup label=" Caso 2">
+      <option>Mayo</option>
+      <option>Junio</option>
+    </optgroup>
+  </select>
+  
+</body>
+</html>
