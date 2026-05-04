@@ -1,0 +1,25 @@
+1. ¿ Qué es CSS y para qué se usa?
+
+Es un lenguaje de hojas de estilo, un mecanismo simple que describe cómo se va a mostrar un documento en la pantalla,
+o cómo se va a imprimir, o incluso cómo va a ser pronunciada la información presente en ese documento a través de un
+dispositivo de lectura. Esta forma de descripción de estilos ofrece a los desarrollado-res el control total sobre estilo 
+y formato de sus documentos. 
+
+Se usa para aplicar estilos de manera selectiva a elementos en documentos HTML 
+
+2. CSS utiliza reglas para las declaraciones de estilo, ¿cómo funcionan?
+
+
+
+3. ¿ Cuáles son las tres formas de dar estilo a un documento?
+
+Podemos asociar las reglas de estilo a las marcas HTML de tres maneras:
+* directamente a la marca,
+* en el head de la página
+* o agrupar las reglas de estilo en un archivo independiente con extensión *.CSS
+
+4. ¿ Cuáles son los distintos tipos de selectores más utilizados?
+Ejemplifique cada uno.
+5. ¿ Qué es una pseudo-clase? Cuáles son las más utilizadas aplicadas a vínculos?
+6. ¿ Qué es la herencia?
+7. ¿ En qué consiste el proceso denominado cascada?
